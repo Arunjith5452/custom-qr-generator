@@ -27,21 +27,6 @@ A simple and customizable QR Code Generator built with **React**, **TypeScript**
 
 ## 🚀 How to Run
 
-```bash
-npm run dev
-
-
-React + TypeScript
-
-Tailwind CSS
-
-Vite
-
-QRCodeStyling
-
-React Toastify
-
-🚀 How to Run
 npm run dev
 
 📁 Folder Structure
