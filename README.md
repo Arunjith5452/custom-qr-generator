@@ -1,7 +1,9 @@
 🔳 QR Code Generator
+
 A simple and customizable QR Code Generator built with React, TypeScript, and Tailwind CSS.
 
 ✨ Features
+
 Enter text or URL to generate QR code
 
 Choose dot style and colors
@@ -29,6 +31,7 @@ React Toastify
 npm run dev
 
 📁 Folder Structure
+
 src/
 ├── components/
 │   ├── QRPreview.tsx
