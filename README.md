@@ -27,16 +27,5 @@ A simple and customizable QR Code Generator built with **React**, **TypeScript**
 
 ## 🚀 How to Run
 
+```bash
 npm run dev
-
-📁 Folder Structure
-
-src/
-├── components/
-│   ├── QRPreview.tsx
-│   ├── QRSettingsForm.tsx
-│   ├── QRDownloadSection.tsx
-│   └── QRTitle.tsx
-├── helpers/
-│   ├── types.ts
-│   └── qrHelpers.ts
