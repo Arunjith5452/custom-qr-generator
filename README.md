@@ -1,54 +1,40 @@
-# React + TypeScript + Vite
+🔳 QR Code Generator
+A simple and customizable QR Code Generator built with React, TypeScript, and Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+Enter text or URL to generate QR code
 
-Currently, two official plugins are available:
+Choose dot style and colors
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Upload a logo inside the QR
 
-## Expanding the ESLint configuration
+Select file type: PNG, JPEG, WEBP, SVG
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Download QR with one click
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Smart color contrast alert for better scannability
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🛠 Tech Stack
+React + TypeScript
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Tailwind CSS
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Vite
+
+QRCodeStyling
+
+React Toastify
+
+🚀 How to Run
+npm run dev
+
+📁 Folder Structure
+src/
+├── components/
+│   ├── QRPreview.tsx
+│   ├── QRSettingsForm.tsx
+│   ├── QRDownloadSection.tsx
+│   └── QRTitle.tsx
+├── helpers/
+│   ├── types.ts
+│   └── qrHelpers.ts
